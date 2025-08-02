@@ -1,0 +1,13 @@
+{
+  "scan_summary": {
+    "total_folders": 31,
+    "empty_folders": 3,
+    "hidden_folders": 0,
+    "scan_time": 0.003645658493041992
+  },
+  "empty_folders": [
+    "demo_test_folders\\.hidden_empty",
+    "demo_test_folders\\empty1",
+    "demo_test_folders\\empty2"
+  ]
+}

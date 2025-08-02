@@ -1,0 +1,49 @@
+{
+  "app_name": "FolderPulse",
+  "version": "1.0.0",
+  "description": "Find and manage empty folders with ease",
+  "debug": false,
+  "auto_save": true,
+  "theme": "default",
+  "window": {
+    "width": 900,
+    "height": 700,
+    "resizable": true,
+    "center_on_startup": true
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/app.log",
+    "console": true,
+    "max_file_size": "10MB",
+    "backup_count": 5
+  },
+  "scanner": {
+    "default_include_subdirs": true,
+    "default_scan_hidden": false,
+    "ignore_patterns": [
+      ".git",
+      "__pycache__",
+      ".vscode",
+      ".idea",
+      "node_modules",
+      ".DS_Store",
+      "Thumbs.db",
+      "desktop.ini",
+      "$RECYCLE.BIN",
+      "System Volume Information"
+    ],
+    "confirm_deletion": true,
+    "max_display_results": 1000
+  },
+  "export": {
+    "default_format": "txt",
+    "include_summary": true,
+    "include_timestamps": true
+  },
+  "paths": {
+    "default_scan_path": "",
+    "export_directory": "exports",
+    "log_directory": "logs"
+  }
+}

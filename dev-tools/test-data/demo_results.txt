@@ -1,0 +1,14 @@
+FolderPulse - Empty Folder Scan Results
+==================================================
+
+SCAN SUMMARY:
+Total folders scanned: 31
+Empty folders found: 3
+Hidden folders: 0
+Scan time: 0.00 seconds
+
+EMPTY FOLDERS:
+--------------------
+demo_test_folders\.hidden_empty
+demo_test_folders\empty1
+demo_test_folders\empty2

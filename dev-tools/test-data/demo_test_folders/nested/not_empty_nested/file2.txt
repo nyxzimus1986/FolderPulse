@@ -1,0 +1,1 @@
+Test content for demo_test_folders/nested/not_empty_nested/file2.txt

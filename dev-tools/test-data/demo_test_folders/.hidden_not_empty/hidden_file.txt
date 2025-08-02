@@ -1,0 +1,1 @@
+Test content for demo_test_folders/.hidden_not_empty/hidden_file.txt

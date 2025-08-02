@@ -1,0 +1,1 @@
+Test content for demo_test_folders/not_empty/file1.txt
