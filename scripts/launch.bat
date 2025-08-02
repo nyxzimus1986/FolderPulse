@@ -1,5 +1,5 @@
 @echo off
-echo 🚀 Starting FolderPulse with Splash Screen
+echo 🚀 Starting VoidPulse with Splash Screen
 echo ========================================
 
 :: Change to the project root directory (one level up from scripts)
@@ -18,7 +18,7 @@ if not exist "assets\icons\app.ico" (
     python scripts\create_assets.py
 )
 
-echo 🎯 Launching FolderPulse...
+echo 🎯 Launching VoidPulse...
 python src\main.py
 
 echo.

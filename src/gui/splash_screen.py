@@ -1,5 +1,5 @@
 """
-Enhanced Splash Screen for FolderPulse
+Enhanced Splash Screen for VoidPulse
 Custom splash screen with animated loading bar and transparency effects.
 """
 
@@ -14,7 +14,7 @@ import math
 
 
 class SplashScreen:
-    """Enhanced splash screen for FolderPulse application with animated loading bar."""
+    """Enhanced splash screen for VoidPulse application with animated loading bar."""
     
     def __init__(self, duration=3.0, callback=None, parent=None):
         """
@@ -172,7 +172,7 @@ class SplashScreen:
         # App title with glow effect
         title_label = tk.Label(
             title_frame,
-            text="FolderPulse",
+            text="VoidPulse",
             font=("Arial", 32, "bold"),
             bg='#1a1a1a',
             fg='#ffffff'

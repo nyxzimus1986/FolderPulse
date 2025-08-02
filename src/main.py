@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-FolderPulse - Main Application Entry Point
+VoidPulse - Main Application Entry Point
 Find and manage empty folders with a professional GUI interface.
 """
 
@@ -20,8 +20,8 @@ from gui.working_splash_screen import SplashScreen  # Using working splash from 
 from utils.logger import setup_logger
 
 
-class FolderPulseApp:
-    """Main application class for FolderPulse."""
+class VoidPulseApp:
+    """Main application class for VoidPulse."""
     
     def __init__(self):
         self.logger = setup_logger(__name__)
@@ -33,7 +33,7 @@ class FolderPulseApp:
     def initialize(self, root_window=None):
         """Initialize the application."""
         try:
-            self.logger.info("Initializing FolderPulse application...")
+            self.logger.info("Initializing VoidPulse application...")
             
             # Use provided root or create new one
             if root_window:
@@ -58,7 +58,7 @@ class FolderPulseApp:
     
     def setup_main_window(self):
         """Configure the main application window."""
-        self.root.title("FolderPulse - Empty Folder Manager")
+        self.root.title("VoidPulse - Empty Folder Manager")
         
         # Get window size from config
         config_width = self.app_manager.get_config("window.width", 900)
@@ -212,7 +212,7 @@ def main():
     args = parser.parse_args()
     
     # Create and run application
-    app = FolderPulseApp()
+    app = VoidPulseApp()
     
     if args.no_splash:
         app.run_without_splash()

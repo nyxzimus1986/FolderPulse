@@ -1,4 +1,4 @@
-# FolderPulse
+# VoidPulse
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
@@ -6,7 +6,7 @@
 
 **Find and manage empty folders with ease!**
 
-FolderPulse is a powerful Python application designed specifically for detecting and managing empty folders in your file system. Keep your storage organized and reclaim wasted space with an intuitive GUI interface.
+VoidPulse is a powerful Python application designed specifically for detecting and managing empty folders in your file system. Keep your storage organized and reclaim wasted space with an intuitive GUI interface.
 
 ## 🚀 Features
 
@@ -29,9 +29,9 @@ FolderPulse is a powerful Python application designed specifically for detecting
 
 ### Installation & Usage
 
-1. **Download FolderPulse**
+1. **Download VoidPulse**
    ```bash
-   cd C:\Users\nyxzi\Python\scripts\FolderPulse
+   cd C:\Users\nyxzi\Python\scripts\VoidPulse
    ```
 
 2. **Install dependencies**
@@ -61,7 +61,7 @@ FolderPulse is a powerful Python application designed specifically for detecting
 
 ### How to Use
 
-1. **Launch FolderPulse** and click "Scan for Empty Folders" on the home screen
+1. **Launch VoidPulse** and click "Scan for Empty Folders" on the home screen
 2. **Select a directory** to scan for empty folders
 3. **Configure options**:
    - ✅ **Include subdirectories**: Scan all nested folders recursively
@@ -82,7 +82,7 @@ The application features:
 
 ## Customization
 
-FolderPulse supports full visual customization:
+VoidPulse supports full visual customization:
 
 ### Custom Logos and Icons
 - **Window Icon**: Replace `assets/icons/app.ico` with your custom icon
@@ -138,7 +138,7 @@ Save your scan results in multiple formats:
 ### Project Structure
 
 ```
-FolderPulse/
+VoidPulse/
 ├── src/
 │   ├── main.py                 # Application entry point
 │   ├── core/
@@ -170,7 +170,7 @@ python demo.py
 python scripts/build.py
 
 # Or run PyInstaller directly
-pyinstaller --onefile --noconsole --name FolderPulse src/main.py
+pyinstaller --onefile --noconsole --name VoidPulse src/main.py
 ```
 
 ## Development
@@ -265,4 +265,4 @@ For support, bug reports, or feature requests:
 
 ---
 
-**FolderPulse** - Professional file system monitoring made simple.
+**VoidPulse** - Professional file system monitoring made simple.

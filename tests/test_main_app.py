@@ -1,5 +1,5 @@
 """
-Test suite for FolderPulse application.
+Test suite for VoidPulse application.
 """
 
 import pytest
@@ -12,18 +12,18 @@ import shutil
 # Add src to path for testing
 sys.path.insert(0, str(Path(__file__).parent.parent / "src"))
 
-from main import FolderPulseApp
+from main import VoidPulseApp
 from core.app_manager import AppManager
 from core.folder_scanner import EmptyFolderScanner
 from utils.logger import setup_logger
 
 
-class TestFolderPulseApp:
-    """Test cases for the main FolderPulseApp class."""
+class TestVoidPulseApp:
+    """Test cases for the main VoidPulseApp class."""
     
     def test_app_creation(self):
         """Test that the app can be created without errors."""
-        app = FolderPulseApp()
+        app = VoidPulseApp()
         assert app is not None
         assert app.app_manager is not None
         assert app.root is None  # Not initialized yet

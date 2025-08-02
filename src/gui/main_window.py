@@ -1,6 +1,6 @@
 """
 Main Window GUI
-The primary user interface for the FolderPulse application.
+The primary user interface for the VoidPulse application.
 """
 
 import tkinter as tk
@@ -93,7 +93,7 @@ class MainWindow:
         # App title with modern font
         title_label = ttk.Label(
             header_frame,
-            text="FolderPulse",
+            text="VoidPulse",
             font=("Segoe UI", 24, "bold")
         )
         title_label.pack(anchor=tk.W)
