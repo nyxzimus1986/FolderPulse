@@ -266,3 +266,8 @@ For support, bug reports, or feature requests:
 ---
 
 **VoidPulse** - Professional file system monitoring made simple.
+
+## Author
+
+- **Name**: Nick Miller
+- **Email**: totalelementservices@gmail.com
